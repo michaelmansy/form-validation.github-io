@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form-Validation</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<div id="successMessage">Congratulations...you did it </div>
+		<div id="errorMessage"></div>
+
+		<div class="form-element">
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="eg. youremail@gmail.com">
+		</div>
+		<div class="form-element">
+			<label for="phone">Telephone</label>
+			<input type="text" name="phone" id="phone" placeholder="eg. XXX XXXX XXXX">
+		</div>
+		<div class="form-element">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<div class="form-element">
+			<label for="passwordConfirm">Confirm Password</label>
+			<input type="password" name="passwordConfirm" id="passwordConfirm">
+		</div>
+		<div class="form-element">
+			<input type="submit" id="submitButton" value="Sign Up">
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
